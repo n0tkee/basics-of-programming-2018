@@ -17,7 +17,6 @@ namespace LoopTask_3._1
             }
 
             else
-            //for (int i = 1; i <= num; i++)
             {
                 for (int i = 1; i <= num; i++)
                 {
