@@ -6,28 +6,36 @@ namespace Looptask_3._2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ohjelma, joka tulostaa N! kertoman arvon");
+            Console.WriteLine("Ohjelma laskee N:n ensimmäisen parittoman ja parillisen lukujen summan");
 
-            Console.Write("Syötä luku: ");
+            Console.Write("Syötä N! arvo: ");
             int num = int.Parse(Console.ReadLine());
             int f = 0;
-            
+            int oddSum = 0;
+            int evenSum = 0;
 
             if (num < 0)
             {
                 Console.WriteLine("Määrittelemätön");
             }
 
-            else 
             {
                 for (int i = 1; i <= num; i++)
                 {
-                    //if (i % 2 ==0)
                     f = f + i;
-                    if (i % 2 == 0) ;
 
+                    if (i % 2 == 0)
+                    {
+                        evenSum = evenSum + i;
+                    }
+                    else
+                    {
+                        oddSum = oddSum + i;
+                    }
                 }
-                Console.WriteLine($"N! kertoma on: {f}");
+                Console.WriteLine($"Parillisten summa on: {evenSum}");
+                Console.WriteLine($"Parittoimien summa on: {oddSum}");
+                Console.ReadKey();
             }
         }
     }
