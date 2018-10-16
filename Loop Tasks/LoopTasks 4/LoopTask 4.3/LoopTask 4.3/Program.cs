@@ -6,18 +6,17 @@ namespace LoopTask_4._3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ohjelma tulostaa 20 satunnaista kokonaislukua väliltä [0-50].\n");
 
             int rndNumber;
             int i;
 
             Random rnd = new Random();
-            rndNumber = rnd.Next(0,50);
+            rndNumber = rnd.Next();
            
             for (i = 1; i < 6; i++)
             {
-                //rndNumber = rnd.Next(0, 50);
-                Console.WriteLine("Rivi " + i + ":" + rnd.Next(0, 50) + "," + rnd.Next(0, 50) + "," + rnd.Next(0, 50) +"," + rnd.Next(0, 50) +"," + rnd.Next(0, 50));
+                Console.WriteLine("Rivi " + i + ": " + rnd.Next(0, 50) + "," + rnd.Next(0, 50) + "," + rnd.Next(0, 50) +"," + rnd.Next(0, 50) +"," + rnd.Next(0, 50));
             }
             Console.ReadKey();
         }
