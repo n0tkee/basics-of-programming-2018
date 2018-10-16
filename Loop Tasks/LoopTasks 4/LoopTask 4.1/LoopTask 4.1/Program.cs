@@ -18,7 +18,7 @@ namespace ifTask4._1
 
             for (int i = 0; i < 10; i++)
             {
-                rndNumber = rnd.Next(0, 100);
+                //rndNumber = rnd.Next(0, 100);
                 Console.WriteLine($"{i + 1}.\t{rndNumber}\t{Math.Sqrt(rndNumber)}");
 
             }
