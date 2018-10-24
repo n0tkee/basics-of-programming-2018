@@ -6,7 +6,26 @@ namespace ItsearviontiTehtävä_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int sum = 0;
+
+            Console.WriteLine("Syötä luku: \n");
+            Console.WriteLine("Input");
+
+            while (true)
+            {
+                Console.Write("");
+                int userInput = int.Parse(Console.ReadLine());
+                sum = sum + userInput;
+
+                if(userInput == -1)
+
+                {
+                    break;
+                }
+            }
+            Console.WriteLine("\nOutput: Lukujen summa on " + (sum +1));
+            Console.ReadKey();
         }
     }
 }
+
