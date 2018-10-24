@@ -6,7 +6,7 @@ namespace ItsearviontiTehtävä_1._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ohelma tulostaa syöttämäsi sanan tai lauseen 5x kertaa.\n");
 
             Console.Write("Syötä sana tai lause: ");
             string userInput = Console.ReadLine();
