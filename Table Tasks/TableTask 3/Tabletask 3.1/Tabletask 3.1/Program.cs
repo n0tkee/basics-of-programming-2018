@@ -8,15 +8,15 @@ namespace Tabletask_3._1
         {
             int[] array = new int[10];
             Random rnd = new Random();
-            int oridinalNum = 0;
+            int[] arrayValue = new int[10];
 
             Console.WriteLine("[X] = Arvo");
 
             for(int i = 0; i < array.Length; i++)
             {
                 array[i] = rnd.Next(0,20);
-                oridinalNum++;
-                Console.WriteLine("[{0}] = {1}", oridinalNum, array[i].ToString("D2"));
+                arrayValue[0]++;
+                Console.WriteLine("[{0}] = {1}", arrayValue[0], array[i].ToString("D2"));
 
             }
             Console.ReadKey();
