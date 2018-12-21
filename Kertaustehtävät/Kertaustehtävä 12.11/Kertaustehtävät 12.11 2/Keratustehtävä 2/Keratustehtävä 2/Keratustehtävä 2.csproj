@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>Kertaustehtävät_12._11_2</RootNamespace>
+    <RootNamespace>Keratustehtävä_2</RootNamespace>
   </PropertyGroup>
 
 </Project>
