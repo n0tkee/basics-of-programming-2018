@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItsearviontiTehtävä 1.1", "ItsearviontiTehtävä 1.1\ItsearviontiTehtävä 1.1.csproj", "{23F4951B-1D95-4537-AACB-290C1CEF105A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItsearviontiTehtävä 4", "ItsearviontiTehtävä 4\ItsearviontiTehtävä 4.csproj", "{D421C927-4A4C-4DF6-BB44-D250A95709DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23F4951B-1D95-4537-AACB-290C1CEF105A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23F4951B-1D95-4537-AACB-290C1CEF105A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23F4951B-1D95-4537-AACB-290C1CEF105A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23F4951B-1D95-4537-AACB-290C1CEF105A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D421C927-4A4C-4DF6-BB44-D250A95709DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D421C927-4A4C-4DF6-BB44-D250A95709DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D421C927-4A4C-4DF6-BB44-D250A95709DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D421C927-4A4C-4DF6-BB44-D250A95709DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1A598392-181C-4622-9F17-9ABEC6DBD9A0}
+		SolutionGuid = {9C31C631-4D9E-43B1-8518-EF8862801299}
 	EndGlobalSection
 EndGlobal
