@@ -6,18 +6,18 @@ namespace TableTask_3._2
     {
         static void Main(string[] args)
         {
-            int x = 0;
-            int y = 0;
-            int[,] arrayValue = new int[10, 20];
+            int[,] arrayRnd = new int[10, 20];
             Random rnd = new Random();
-            int [] arrayRnd = new int [200];
 
-            for(int i = 0; i < arrayRnd.Length; i++)
+            for(int c = 0; c < arrayRnd.GetUpperBound(0); c++)
             {
-                arrayRnd[i] = rnd.Next(0, 200);
-                arrayValue[0, 0]++;
+                for (int r = 0; r < arrayRnd.GetUpperBound(1); r++)
+                {
 
-                Console.WriteLine("[{0}] = {1}", arrayValue[0,0], arrayRnd[i].ToString("D2"));
+                    arrayRnd[c, r] = rnd.Next(10, 200);
+
+                    Console.WriteLine($"[{c},{r}] = {arrayRnd[c,r].ToString("D2")}");
+                }
             }
             Console.ReadKey();
         }
